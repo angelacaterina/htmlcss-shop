@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+#main_content{
+  margin-top: 5%
+}
+
 .products{
   width: 50%;
   margin: auto;
@@ -45,4 +49,10 @@
 
 .product:hover .hearts{
   display: block;
+}
+
+#site_footer{
+  margin: 20px;
+  text-align: center;
+  font-size: 20px;
 }
