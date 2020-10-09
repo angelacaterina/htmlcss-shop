@@ -6,15 +6,14 @@
 
 .products{
   width: 50%;
-  border: 1px solid black;
   margin: auto;
   text-align: center;
 }
 
 .product{
-  margin: 5px;
   display: inline-block;
   position: relative;
+  cursor: pointer;
 }
 
 .product > .discount{
@@ -43,6 +42,7 @@
   position: absolute;
   bottom: 0;
 }
+
 .product:hover .hearts{
   display: block;
 }
