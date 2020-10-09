@@ -34,3 +34,15 @@
 .red{
   background: red;
 }
+
+.hearts{
+  width: 100%;
+  color: red;
+  font-size: 40px;
+  display: none;
+  position: absolute;
+  bottom: 0;
+}
+.product:hover .hearts{
+  display: block;
+}
